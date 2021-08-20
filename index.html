@@ -1,486 +1,300 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>Maveli</title>  
-    <meta name="keywords" content="Maveli Kerala maveli kerala">
-    <meta name="description" content=" Portfolio of King Maveli">
-    <meta name="author" content="Maveli">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="icon" size="16x16" href="uploads/ipad.jpg">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizer for Portfolio -->
-    <script src="js/modernizer.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-
-    <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__bar"></div>
-			<div class="loader__ball"></div>
-		</div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-    
-	
-    <header class="header header_style_01">
-        <div class="navbar">
-        <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light" style="background-color: #FF8C00;">
-            <div class="container">
-                <div class="navbar-header">
-					<a class="navbar-brand" href="index.html" style="color:#FF8C00;"><b>മാവേലി </b></a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar" style="margin-right:1%">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item "><a class="nav-link" href="#">മുഖവുര</a></li>
-                        <li class="nav-item "><a class="nav-link" href="#about">നമ്മെക്കുറിച്</a></li>
-                        
-                       
-                        <li class="nav-item "><a class="nav-link" href="#bharanam">ഭരണ നേട്ടങ്ങൾ </a></li>
-                        <li class="nav-item "><a class="nav-link" href="#janabhiprayam">ജനാഭിപ്രായം </a></li>
-                        <li class="nav-item "><a class="nav-link" href="#mulearn">മ്യു ലേൺ ഓണം </a></li>
-                       
-						<li class="nav-item "><a class="nav-link" href="#contact">സമ്പർക്കം </a></li>
-                    </ul>
-                </div>
-            </div>
+<p>Maveli</p>
+<p></p>
+<header>
+  <div>
+    <nav>
+      <div>
+        <div>
+          <a href="index.html">
+            <strong>മാവേലി </strong>
+          </a>
+          <button type="button" data-toggle="collapse" data-target="#navbar"> Toggle navigation </button>
         </div>
-        </nav>
-    </header>
-	<script>
-  
-        /* Code for changing active 
-        link on clicking */
-        var btns = 
-            $("#navigation .navbar-nav .nav-link");
-
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click",
-                                  function () {
-                var current = document
-                    .getElementsByClassName("active");
-
-                current[0].className = current[0]
-                    .className.replace(" active", "");
-
-                this.className += " active";
-            });
-        }
-
-        /* Code for changing active 
-        link on Scrolling */
-        $(window).scroll(function () {
-            var distance = $(window).scrollTop();
-            $('.page-section').each(function (i) {
-
-                if ($(this).position().top 
-                    <= distance + 250) {
-                      
-                        $('.navbar-nav a.active')
-                            .removeClass('active');
-
-                        $('.navbar-nav a').eq(i)
-                            .addClass('active');
-                }
-            });
-        }).scroll();
-    </script>
-	<div class="slider-area">
-		<div class="slider-wrapper owl-carousel">
-			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-one">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="slider-content-area">
-								<div class="slide-text">
-									<h1 class="homepage-three-title">ഹായ്, ഞാൻ <span>മാവേലി </span></h1><br>
-									<h2>ഓണാഘോഷം കൊണ്ടു വന്ന നാടുവാഴി <br> <br>ജനങ്ങളുടെ രാജാവ്  </h2>
-									<div class="slider-content-btn">
-										<a class="btn11" href="https://en.wikipedia.org/wiki/Mahabali">കൂടുതൽ വിവരങ്ങൾ <div class="transition"></div></a>
-										<a class="btn11" href="">സമ്പർക്കത്തിന് <div class="transition"></div></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-			
-		</div>
-	</div>
-    <section id="about" class="page-section">
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">
-                       
-                        <h2 style="font-weight: bold;">നമ്മെ പറ്റി ഒരു രണ്ട് വാക്ക് ...</h2>
-                        <p class="lead" style="color: #FF8C00;font-weight: bold;">മഹാബലി എന്ന് പേരുള്ള നാം മാവേലി എന്നും ഇന്ദ്രസേനൻ എന്നും അറിയപ്പെടുന്നു .  നമ്മുടെ വാഴ്ച കാലങ്ങളിൽ മാനുഷരെല്ലാരും ഒന്ന് പോലെ പരിഗണിക്കപ്പെട്ടിരുന്നു. കോറോണക്ക് ശേഷമുള്ള നമ്മുടെ രണ്ടാമത്തെ വരവാണ് ഇത്. ജനങ്ങൾക്ക് വേണ്ടി ജനങ്ങളുടെ രാജാവായി നോം എന്നും നില നിൽക്കും .</p>
-                        <p style="font-weight: bold;">വേർതിരിവില്ലാതെ സന്തോഷപൂർണ്ണവും സമാധാനപരവും ആയ ഒരു ഭരണം നടത്തിയിരുന്ന നോം അമൃത് സേവിച്ചിട്ടുള്ളതിനാൽ അനന്തമായ ജീവിതം കൈ വരിച്ചവൻ അഥവാ ചിരഞ്ജീവി അല്ലേൽ മരണമില്ലാത്തവൻ ആണ് .</p>
-                      
-
-                        <a class="btn11" href="https://en.wikipedia.org/wiki/Mahabali"><span>കൂടുതൽ വിവരങ്ങൾ</span><div class="transition"></div></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                        <img src="uploads/about_01.jpg" alt="" class="img-fluid img-rounded" style="border-radius: 50%;">
-                       
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class="hr1"> 
-
-            <div class="row">
-				<div class="col-md-6">
-                    <div class="message-box">
-                        <h2 style="font-weight: bold;">നമ്മുടെ ഭരണം ...</h2>
-                        <p style="font-weight: bold;">ഭരണം എന്നാൽ ജനങ്ങളെ അടിച്ചമർത്താൽ അല്ല. അവരുടെ കൂടെ നിന്ന് അവരെ മനസ്സിലാക്കിക്കൊണ്ടുള്ള ഒന്നിച്ചുള്ള ഒരു വളർച്ചയാണ് .</p>
-
-                        <ul style="font-weight: bold;">
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> ജാതി മത വേർതിരിവില്ലാതെ സമ്പൂർണ  സമത്വം .</li>
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> തൊഴിലില്ലായ്മ ഇല്ലാത്ത ഒരു സമൂഹം </li>
-							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> എല്ലാവർക്കും അത്യാവശ്യ സൗകര്യങ്ങൾ ഉള്ള  പാർപ്പിടം </li>
-						</ul>
-
-                        
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-				
-                <div class="col-md-6">
-                    <div class="message-box">
-                        <h2 style="font-weight: bold;">ഓണം വന്ന വഴി ...</h2>
-                        
-
-                        <p style="font-weight: bold;">നമ്മുടെ ഭരണമികവ് കണ്ടു ഭയപ്പെട്ട ദേവഗണങ്ങൾ വിഷ്ണു ഭഗവാനെ സമീപിച്ചു. നമ്മുടെ നാടിന്റെ വിജയാഘോഷങ്ങളിൽ സമ്മാനം കൊടുത്തിരുന്ന നമ്മെ വിഷ്ണു ഭഗവാൻ വാമന വേഷത്തിൽ സമീപിക്കുകയും മൂന്നടി നിലം ആവശ്യപ്പെടുകയും ചെയ്തു. ആവശ്യം അംഗീകരിച്ചപ്പോൾ വിഷ്ണുഭഗവാൻ ത്രിവിക്രമഃ രൂപത്തിലേക്ക് മാറുകയും ആദ്യത്തെ കാൽ വെയ്പ്പിൽ സ്വർഗ്ഗവും രണ്ടാമത്തേതിൽ ഭൂമിയും അളന്നെടുത്തു . വാക്ക് പാലിക്കാൻ നോം നമ്മളുടെ ശിരസ്സ് കൊടുക്കുകയും വിഷ്ണു ഭഗവാൻ നമ്മെ പാതാളത്തിലേക്ക് താഴ്ത്തുകയും ചെയ്തു . എന്നാൽ കടുത്ത ഭക്തനായ നമ്മൾക്കു വർഷത്തിൽ ഒരിക്കൽ നമ്മുടെ പ്രിയപ്പെട്ട ജനങ്ങളെ സന്ദർശിക്കാൻ അവസരവും തന്നു . നമ്മുടെ ഈ ദർശനം ആണ് കേരള ജനത ഓണം ആയി ആഘോഷിക്കുന്നത് . </p>
-
-                        
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-</div>
-<section id="bharanam" class="page-section">
-	<div id ="bharanam" class="parallax section parallax-off" data-stellar-background-ratio="0.9" style="background-image:url('uploads/parallax_04.jpg');">
-        <div class="container"><font color=#FF8C00>
-            <div class="row text-center stat-wrap" >
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-briefcase"></i></span>
-                    <p class="stat_count">5200+</p>
-                    <h3 class="line-hv">ഭവന നിർമാണം </h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-happy"></i></span>
-                    <p class="stat_count">3200+</p>
-                    <h3 class="line-hv">സൗജന്യ ഭക്ഷണ ശാലകൾ </h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-idea"></i></span>
-                    <p class="stat_count">3800+</p>
-                    <h3 class="line-hv">തൊഴിൽ പദ്ധതികളും സംരംഭങ്ങളും </h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span class="global-radius icon_wrap"><i class="flaticon-customer-service"></i></span>
-                    <p class="stat_count">4300+</p>
-                    <h3 class="line-hv">സൗജന്യ വിദ്യാഭ്യാസം </h3>
-                </div><!-- end col -->
-            </div><!-- end row --></font>
-        </div><!-- end container -->
-    </div><!-- end section -->
-</div>
-    <div id="services" class="parallax section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3 style="font-weight: bold;">ഭരണ നേട്ടങ്ങൾ </h3>
-                <p class="lead" style="font-weight: bold;">ഭരണ നേട്ടങ്ങൾ കേവലം നമ്മുടെ മാത്രം നേട്ടമല്ല . ജനങ്ങളോട് ചേർന്ന് ഒരുമിച്ച് നേടിയെടുത്ത അംഗീകാരങ്ങൾ തന്നെയാണ് .</p>
-            </div><!-- end title -->
-
-            
-            
-            <div class="card-group m-2" style="font-weight:bold">
-                <div class="card">
-                    <div class="post-media wow fadeIn">
-                        <a href="uploads/service_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="uploads/service_01.jpg" alt="" class="img-fluid img-rounded">
-                    </div>
-                  <div class="card-body">
-                    <h3 class="card-title" style="font-weight:bold">അടച്ചുറപ്പും സംരക്ഷണവുമുള്ള ഭവന നിർമാണം </h3>
-                    <p class="ads">ശക്തമായ മഴയിലും നമ്മുടെ ജനങ്ങൾക്ക് പൂർണ്ണ സംരക്ഷണം നൽകുന്ന ഭവനങ്ങൾ ജന പങ്കാളിത്തത്തോടെ നിർമിച്ചു.പൂർണമായും പ്രകൃതി ദത്തമായ വസ്തുക്കൾ ഉപയോഗിച്ചു നിർമിച്ച ഭവനങ്ങൾ .</p>
-                  </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#">മുഖവുര</a>
+            </li>
+            <li>
+              <a href="#about">നമ്മെക്കുറിച്</a>
+            </li>
+            <li>
+              <a href="#bharanam">ഭരണ നേട്ടങ്ങൾ </a>
+            </li>
+            <li>
+              <a href="#janabhiprayam">ജനാഭിപ്രായം </a>
+            </li>
+            <li>
+              <a href="#mulearn">മ്യു ലേൺ ഓണം </a>
+            </li>
+            <li>
+              <a href="#contact">സമ്പർക്കം </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <h1>ഹായ്, ഞാൻ മാവേലി</h1>
+                <br />
+                <h2>ഓണാഘോഷം കൊണ്ടു വന്ന നാടുവാഴി <br />
+                  <br />ജനങ്ങളുടെ രാജാവ്
+                </h2>
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Mahabali">കൂടുതൽ വിവരങ്ങൾ</a>
+                  <a>സമ്പർക്കത്തിന്</a>
                 </div>
-                <div class="card">
-                    <div class="post-media wow fadeIn">
-                    <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img src="uploads/service_02.jpg" alt="" class="img-fluid img-rounded">
-                </div>
-                  <div class="card-body">
-                    <h3 class="card-title" style="font-weight:bold">വിദ്യ അഭ്യസിക്കുവാൻ വിദ്യാലയങ്ങൾ</h3>
-                    <p class="card-text">വിദ്യാഭ്യാസമുള്ള ഒരു ശക്തമായ തലമുറയെ വളർത്തിയെടുക്കുന്നതിന് വേണ്ടി തികച്ചും പൂർണമായ ജനപങ്കാളിത്തത്തോടെ ഓരോ പ്രധാന മേഘലകളിലും വിദ്യാലയങ്ങൾ സ്ഥാപിച്ചു.</p>
-                  </div>
-                </div>
-                <div class="card">
-                    <div class="post-media wow fadeIn">
-                    <a href="uploads/service_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img src="uploads/service_03.jpg" alt="" class="img-fluid img-rounded">
-                </div>
-                  <div class="card-body">
-                    <h3 class="card-title" style="font-weight:bold">തൊഴിലധിഷ്ഠിത പരിശീലന കേന്ദ്രങ്ങൾ</h3>
-                    <p class="card-text">ഓരോരുത്തർക്കും അവരുടെ വിദ്യാഭ്യാസ നിലവാരമനുസരിച്ചുള്ള തൊഴിൽ ലഭിക്കുന്നതിന് വേണ്ട ഉയർന്ന നിലവാരത്തിലുള്ള പരിശീലന കേന്ദ്രങ്ങൾ</p>
-                  </div>
-                </div>
-                <div class="card">
-                    <div class="post-media wow fadeIn">
-                        <a href="uploads/service_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                        <img src="uploads/service_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title" style="font-weight:bold">ജാതി മത വർഗ്ഗ വർണ്ണ വിവേചനമില്ലാത്ത തിരഞ്ഞെടുക്കൽ</h3>
-                      <p class="card-text">എല്ലാവർക്കും സമ്പൂർണ സമത്വത്തിൽ തുല്യ അവകാശം .പൂർണമായും വിവേചന രഹിതം .</p>
-                    </div>
-                  </div>
-               </div>
-               </div>
-
-            <div class="text-center" >
-                <a href="https://en.wikipedia.org/wiki/Mahabali" class="btn11" ><span>കൂടുതൽ വിവരങ്ങൾ </span></a>
+              </div>
             </div>
-            
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-  
-	
-    
-
-    <div id="janabhiprayam" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>ജനാഭിപ്രായം നിങ്ങൾക് മുൻപിൽ ...</h3>
-                
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-							
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> സമത്വമുള്ള ഭരണം !</h3>
-                                <p class="lead">കീഴ് ജാതിയിലുള്ളവർക് സ്വപ്നം പോലും കാണാൻ പറ്റാത്ത തൊഴിലവസരങ്ങളും വിദ്യാഭ്യാസവും ഒരുക്കി തന്ന ഞങ്ങളിൽ ഒരാളായ ഞങ്ങളുടെ നാട് വാഴി. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>-ദാസൻ </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> അടച്ചുറപ്പുള്ള പാർപ്പിടവും പ്രകാശവും !</h3>
-                                <p class="lead">മഴയത്തു ചോർന്നൊലിക്കുന്ന വീട്ടിൽ നിന്ന് പൂർണമായും സുരക്ഷയും രാത്രിയിലും പ്രകാശം നൽകുന്ന ഭവനങ്ങൾ നിർമിച്ചു തന്ന ഞങ്ങളുടെ രാജാവിന് നന്ദി .</p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>-കോരൻ </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> സമ്പൂർണ ദാരിദ്ര്യ നിർമാർജനം !</h3>
-                                <p class="lead">പട്ടിണിയും ഭക്ഷ്യ ദാരിദ്ര്യവും നിറഞ്ഞ നിന്നിരുന്ന ഒരു സമൂഹത്തിനെ സുസ്ഥിര വികസനത്തിലേക്ക് കൈ പിടിച് ഉയർത്തി .</p>
-                            </div>
-                            <div class="testi-meta">
-                                <h4>-വാസു </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                       
-
-                       
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class="hr1">
-
-            
-
-        </div><!-- end container -->
-    </div><!-- end section -->
-    <div id="mulearn" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">
-                       
-                        <h2 style="font-weight: bold;">കോറോണക്കാലത്തെ ഈ ഓണം മ്യു ലേൺ കൂട്ടായ്മക്കൊപ്പം...</h2>
-                        <p class="lead" style="color: #FF8C00;font-weight: bold;">സാമൂഹിക അകലം പാലിക്കേണ്ട ഈ കാലഘട്ടത്തിൽ ഓൺലൈനിലൂടെ നമ്മുടെ കഴിവുകൾ വളർത്തുകയും അവ പരിപോഷിപ്പിച്ചു കൊണ്ട്  പുതിയൊരു സമൂഹം വാർത്തെടുക്കുക എന്ന ലക്ഷ്യത്തിൽ മ്യു ലേൺ നടത്തുന്ന പരിപാടികളിൽ സജീവമായി പങ്കെടുക്കുയാണ് നാം ഈ കൊറോണ കാലത്തു ചെയ്യേണ്ടത് .</p>
-                        <p style="font-weight: bold;">കഴിവുള്ളവരെ കണ്ടെത്തുന്നതിലുപരി അവർക്കു സമ്മാനങ്ങൾ നൽകുകയും അവരെ അവരവരുടെ  കഴിവുകൾക്ക് അനുസരിച്ചുള്ള തൊഴിൽ നേടികൊടുക്കുന്നതിനും മ്യു ലേൺ സഹായിക്കുന്നു.</p>
-                      
-
-                        <a class="btn11" href="https://atfg.gtechindia.org/program/mulearn/"><span>കൂടുതൽ വിവരങ്ങൾ</span><div class="transition"></div></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                        <img src="uploads/coronabali.jpg" alt="" class="img-fluid img-rounded" style="border-radius: 50%;">
-                       
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class="hr1"> 
-
-            
-        </div><!-- end container -->
-    </div><!-- end section -->
-    <div id="contact" class="section wb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3 style="font-weight: bold;">നമ്മെ വിവരം അറിയിക്കുവാൻ ...</h3>
-                <p style="font-weight: bold;" class="lead">ജനങ്ങളുടെ നാടുവാഴി ആയ നോം ഏതാവശ്യത്തിനും നിങ്ങളുടെ വിളിപ്പുറത്തു തന്നെ ഉണ്ടാകും . ധൈര്യായിട്ട് വിളിച്ചു കൊള്ളുക!</p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="contact_form">
-                        <div id="message"></div>
-                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
-                            <fieldset class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="ആദ്യ നാമം ">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="അന്ത്യ നാമം ">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="ഇമെയിൽ വിലാസം ">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="ഫോൺ">
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="എന്താണ് നിങ്ങൾക് പറയാനൊള്ളത് ?"></textarea>
-                                </div>
-                                <div class="text-center cont-btn">
-                                    <button type="submit" value="SEND" id="submit" class="btn11"><span>കൈ മാറിക്കോളു.</span></button>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-			
-			<div class="row">
-				<div class="offset-md-1 col-sm-10 col-md-10 offset-sm-1 pd-add">
-					<div class="address-item">
-						<div class="address-icon">
-							<i class="icon icon-location2"></i>
-						</div>
-						<h3>തലസ്ഥാനം </h3>
-						<p>പാതാളം 12345
-							<br>നമ്മുടെ ഭൂമീടെ താഴെ </p>
-					</div>
-					<div class="address-item">
-						<div class="address-icon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<h3>ഇ മെയിൽ വിലാസം </h3>
-						<p>maveli@pathalam.kerala.india.earth.in
-							</p>
-					</div>
-					<div class="address-item">
-						<div class="address-icon">
-							<i class="icon icon-headphones"></i>
-						</div>
-						<h3>ഫോൺ </h3>
-						<p>+910000000000
-							</p>
-					</div>
-                    
-				</div>
-                <ul class="social-list">
-                    <li><a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://plus.google.com/" class="googlePlus"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
-			</div><!-- end row -->
-			
-        </div><!-- end container -->
-    </div><!-- end section -->
-   
-
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Maveli</a> Design By : Maveli
-					</p>
-                </div>
-
-                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <h2>നമ്മെ പറ്റി ഒരു രണ്ട് വാക്ക് ...</h2>
+            <p>മഹാബലി എന്ന് പേരുള്ള നാം മാവേലി എന്നും ഇന്ദ്രസേനൻ എന്നും അറിയപ്പെടുന്നു . നമ്മുടെ വാഴ്ച കാലങ്ങളിൽ മാനുഷരെല്ലാരും ഒന്ന് പോലെ പരിഗണിക്കപ്പെട്ടിരുന്നു. കോറോണക്ക് ശേഷമുള്ള നമ്മുടെ രണ്ടാമത്തെ വരവാണ് ഇത്. ജനങ്ങൾക്ക് വേണ്ടി ജനങ്ങളുടെ രാജാവായി നോം എന്നും നില നിൽക്കും .</p>
+            <p>വേർതിരിവില്ലാതെ സന്തോഷപൂർണ്ണവും സമാധാനപരവും ആയ ഒരു ഭരണം നടത്തിയിരുന്ന നോം അമൃത് സേവിച്ചിട്ടുള്ളതിനാൽ അനന്തമായ ജീവിതം കൈ വരിച്ചവൻ അഥവാ ചിരഞ്ജീവി അല്ലേൽ മരണമില്ലാത്തവൻ ആണ് .</p>
+            <a href="https://en.wikipedia.org/wiki/Mahabali">കൂടുതൽ വിവരങ്ങൾ</a>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="uploads/about_01.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <div>
+          <div>
+            <h2>നമ്മുടെ ഭരണം ...</h2>
+            <p>ഭരണം എന്നാൽ ജനങ്ങളെ അടിച്ചമർത്താൽ അല്ല. അവരുടെ കൂടെ നിന്ന് അവരെ മനസ്സിലാക്കിക്കൊണ്ടുള്ള ഒന്നിച്ചുള്ള ഒരു വളർച്ചയാണ് .</p>
+            <ul>
+              <li>ജാതി മത വേർതിരിവില്ലാതെ സമ്പൂർണ സമത്വം .</li>
+              <li>തൊഴിലില്ലായ്മ ഇല്ലാത്ത ഒരു സമൂഹം</li>
+              <li>എല്ലാവർക്കും അത്യാവശ്യ സൗകര്യങ്ങൾ ഉള്ള പാർപ്പിടം</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>ഓണം വന്ന വഴി ...</h2>
+            <p>നമ്മുടെ ഭരണമികവ് കണ്ടു ഭയപ്പെട്ട ദേവഗണങ്ങൾ വിഷ്ണു ഭഗവാനെ സമീപിച്ചു. നമ്മുടെ നാടിന്റെ വിജയാഘോഷങ്ങളിൽ സമ്മാനം കൊടുത്തിരുന്ന നമ്മെ വിഷ്ണു ഭഗവാൻ വാമന വേഷത്തിൽ സമീപിക്കുകയും മൂന്നടി നിലം ആവശ്യപ്പെടുകയും ചെയ്തു. ആവശ്യം അംഗീകരിച്ചപ്പോൾ വിഷ്ണുഭഗവാൻ ത്രിവിക്രമഃ രൂപത്തിലേക്ക് മാറുകയും ആദ്യത്തെ കാൽ വെയ്പ്പിൽ സ്വർഗ്ഗവും രണ്ടാമത്തേതിൽ ഭൂമിയും അളന്നെടുത്തു . വാക്ക് പാലിക്കാൻ നോം നമ്മളുടെ ശിരസ്സ് കൊടുക്കുകയും വിഷ്ണു ഭഗവാൻ നമ്മെ പാതാളത്തിലേക്ക് താഴ്ത്തുകയും ചെയ്തു . എന്നാൽ കടുത്ത ഭക്തനായ നമ്മൾക്കു വർഷത്തിൽ ഒരിക്കൽ നമ്മുടെ പ്രിയപ്പെട്ട ജനങ്ങളെ സന്ദർശിക്കാൻ അവസരവും തന്നു . നമ്മുടെ ഈ ദർശനം ആണ് കേരള ജനത ഓണം ആയി ആഘോഷിക്കുന്നത് .</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div data-stellar-background-ratio="0.9">
+      <div>
+        <div>
+          <div>
+            <p>5200+</p>
+            <h3>ഭവന നിർമാണം</h3>
+          </div>
+          <div>
+            <p>3200+</p>
+            <h3>സൗജന്യ ഭക്ഷണ ശാലകൾ</h3>
+          </div>
+          <div>
+            <p>3800+</p>
+            <h3>തൊഴിൽ പദ്ധതികളും സംരംഭങ്ങളും</h3>
+          </div>
+          <div>
+            <p>4300+</p>
+            <h3>സൗജന്യ വിദ്യാഭ്യാസം</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <h3>ഭരണ നേട്ടങ്ങൾ</h3>
+          <p>ഭരണ നേട്ടങ്ങൾ കേവലം നമ്മുടെ മാത്രം നേട്ടമല്ല . ജനങ്ങളോട് ചേർന്ന് ഒരുമിച്ച് നേടിയെടുത്ത അംഗീകാരങ്ങൾ തന്നെയാണ് .</p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img src="uploads/service_01.jpg" alt="" />
             </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
-
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/portfolio.js"></script>
-    <script src="js/hoverdir.js"></script>    
-
-</body>
-</html>
+            <div>
+              <h3>അടച്ചുറപ്പും സംരക്ഷണവുമുള്ള ഭവന നിർമാണം</h3>
+              <p>ശക്തമായ മഴയിലും നമ്മുടെ ജനങ്ങൾക്ക് പൂർണ്ണ സംരക്ഷണം നൽകുന്ന ഭവനങ്ങൾ ജന പങ്കാളിത്തത്തോടെ നിർമിച്ചു.പൂർണമായും പ്രകൃതി ദത്തമായ വസ്തുക്കൾ ഉപയോഗിച്ചു നിർമിച്ച ഭവനങ്ങൾ .</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="uploads/service_02.jpg" alt="" />
+            </div>
+            <div>
+              <h3>വിദ്യ അഭ്യസിക്കുവാൻ വിദ്യാലയങ്ങൾ</h3>
+              <p>വിദ്യാഭ്യാസമുള്ള ഒരു ശക്തമായ തലമുറയെ വളർത്തിയെടുക്കുന്നതിന് വേണ്ടി തികച്ചും പൂർണമായ ജനപങ്കാളിത്തത്തോടെ ഓരോ പ്രധാന മേഘലകളിലും വിദ്യാലയങ്ങൾ സ്ഥാപിച്ചു.</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="uploads/service_03.jpg" alt="" />
+            </div>
+            <div>
+              <h3>തൊഴിലധിഷ്ഠിത പരിശീലന കേന്ദ്രങ്ങൾ</h3>
+              <p>ഓരോരുത്തർക്കും അവരുടെ വിദ്യാഭ്യാസ നിലവാരമനുസരിച്ചുള്ള തൊഴിൽ ലഭിക്കുന്നതിന് വേണ്ട ഉയർന്ന നിലവാരത്തിലുള്ള പരിശീലന കേന്ദ്രങ്ങൾ</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="uploads/service_04.jpg" alt="" />
+            </div>
+            <div>
+              <h3>ജാതി മത വർഗ്ഗ വർണ്ണ വിവേചനമില്ലാത്ത തിരഞ്ഞെടുക്കൽ</h3>
+              <p>എല്ലാവർക്കും സമ്പൂർണ സമത്വത്തിൽ തുല്യ അവകാശം .പൂർണമായും വിവേചന രഹിതം .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a href="https://en.wikipedia.org/wiki/Mahabali">കൂടുതൽ വിവരങ്ങൾ </a>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <h3>ജനാഭിപ്രായം നിങ്ങൾക് മുൻപിൽ ...</h3>
+        </div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <h3>സമത്വമുള്ള ഭരണം !</h3>
+                  <p>കീഴ് ജാതിയിലുള്ളവർക് സ്വപ്നം പോലും കാണാൻ പറ്റാത്ത തൊഴിലവസരങ്ങളും വിദ്യാഭ്യാസവും ഒരുക്കി തന്ന ഞങ്ങളിൽ ഒരാളായ ഞങ്ങളുടെ നാട് വാഴി.</p>
+                </div>
+                <div>
+                  <h4>-ദാസൻ</h4>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3>അടച്ചുറപ്പുള്ള പാർപ്പിടവും പ്രകാശവും !</h3>
+                  <p>മഴയത്തു ചോർന്നൊലിക്കുന്ന വീട്ടിൽ നിന്ന് പൂർണമായും സുരക്ഷയും രാത്രിയിലും പ്രകാശം നൽകുന്ന ഭവനങ്ങൾ നിർമിച്ചു തന്ന ഞങ്ങളുടെ രാജാവിന് നന്ദി .</p>
+                </div>
+                <div>
+                  <h4>-കോരൻ</h4>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3>സമ്പൂർണ ദാരിദ്ര്യ നിർമാർജനം !</h3>
+                  <p>പട്ടിണിയും ഭക്ഷ്യ ദാരിദ്ര്യവും നിറഞ്ഞ നിന്നിരുന്ന ഒരു സമൂഹത്തിനെ സുസ്ഥിര വികസനത്തിലേക്ക് കൈ പിടിച് ഉയർത്തി .</p>
+                </div>
+                <div>
+                  <h4>-വാസു</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <h2>കോറോണക്കാലത്തെ ഈ ഓണം മ്യു ലേൺ കൂട്ടായ്മക്കൊപ്പം...</h2>
+              <p>സാമൂഹിക അകലം പാലിക്കേണ്ട ഈ കാലഘട്ടത്തിൽ ഓൺലൈനിലൂടെ നമ്മുടെ കഴിവുകൾ വളർത്തുകയും അവ പരിപോഷിപ്പിച്ചു കൊണ്ട് പുതിയൊരു സമൂഹം വാർത്തെടുക്കുക എന്ന ലക്ഷ്യത്തിൽ മ്യു ലേൺ നടത്തുന്ന പരിപാടികളിൽ സജീവമായി പങ്കെടുക്കുയാണ് നാം ഈ കൊറോണ കാലത്തു ചെയ്യേണ്ടത് .</p>
+              <p>കഴിവുള്ളവരെ കണ്ടെത്തുന്നതിലുപരി അവർക്കു സമ്മാനങ്ങൾ നൽകുകയും അവരെ അവരവരുടെ കഴിവുകൾക്ക് അനുസരിച്ചുള്ള തൊഴിൽ നേടികൊടുക്കുന്നതിനും മ്യു ലേൺ സഹായിക്കുന്നു.</p>
+              <a href="https://atfg.gtechindia.org/program/mulearn/">കൂടുതൽ വിവരങ്ങൾ</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="uploads/coronabali.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <h3>നമ്മെ വിവരം അറിയിക്കുവാൻ ...</h3>
+          <p>ജനങ്ങളുടെ നാടുവാഴി ആയ നോം ഏതാവശ്യത്തിനും നിങ്ങളുടെ വിളിപ്പുറത്തു തന്നെ ഉണ്ടാകും . ധൈര്യായിട്ട് വിളിച്ചു കൊള്ളുക!</p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <form action="contact.php" method="post" name="contactform">
+                <fieldset>
+                  <div>
+                    <input name="first_name" type="text" placeholder="ആദ്യ നാമം " />
+                  </div>
+                  <div>
+                    <input name="last_name" type="text" placeholder="അന്ത്യ നാമം " />
+                  </div>
+                  <div>
+                    <input name="email" type="email" placeholder="ഇമെയിൽ വിലാസം " />
+                  </div>
+                  <div>
+                    <input name="phone" type="text" placeholder="ഫോൺ" />
+                  </div>
+                  <div>
+                    <textarea name="comments" rows="6" placeholder="എന്താണ് നിങ്ങൾക് പറയാനൊള്ളത് ?"></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" value="SEND">കൈ മാറിക്കോളു.</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <h3>തലസ്ഥാനം</h3>
+              <p>പാതാളം 12345 <br />നമ്മുടെ ഭൂമീടെ താഴെ </p>
+            </div>
+            <div>
+              <h3>ഇ മെയിൽ വിലാസം</h3>
+              <p>maveli@pathalam.kerala.india.earth.in</p>
+            </div>
+            <div>
+              <h3>ഫോൺ</h3>
+              <p>+910000000000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <p>All Rights Reserved. &copy; 2021 <a href="#">Maveli</a> Design By : Maveli </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#"></a>
+  </section>
+</section>
