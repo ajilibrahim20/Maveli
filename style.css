@@ -3266,6 +3266,9 @@ select.mobile-device {
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
 }
 
+
+.social-icon {display: inline-block; margin: 0 10px}
+
 .address-icon {
   padding: 15px 0px;
 }
